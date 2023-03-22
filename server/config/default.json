@@ -1,0 +1,13 @@
+{
+    "serverPort" : 5000,
+    "dbUrl" : "mongodb+srv://vadimon1000vad:2389123vaD@cluster0.5hpd3qo.mongodb.net/?retryWrites=true&w=majority",
+    "key" : "brokenkey",
+    "defaultCategory" : {
+        "Авто" : 5000, 
+        "Банк" : 5000, 
+        "Їжа" : 5000, 
+        "Ресторан" : 5000, 
+        "Одежа" : 5000, 
+        "Інше" : 5000
+    }
+}

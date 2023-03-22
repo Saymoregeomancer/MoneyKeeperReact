@@ -1,0 +1,8 @@
+
+{
+    "pages" : [
+        { "page": "Транзакції", "icon": "", "pageUrl": "transactions" },
+        { "page": "Звіт", "icon": "", "pageUrl": "reports" },
+        { "page": "Налаштування", "icon": "", "pageUrl": "settings" }
+      ]
+}

@@ -1,0 +1,72 @@
+
+{
+        "SingIn" : {
+            "url" : "auth/login",
+            "method" : "POST",
+            "headers" : {},
+            "token" : false
+        },
+        "SingUp" : {
+            "url" : "auth/register",
+            "method" : "POST",
+            "headers" : {},
+            "token" : false
+        },
+        "Auth" : {
+            "url" : "auth/checkToken",
+            "method" : "POST",
+            "headers" : {},
+            "token" : true
+        },
+        "Transactions" : {
+            "url" : "transactions/getByDate",
+            "method" : "POST",
+            "body": {},
+            "headers" : {},
+            "token" : true
+        },
+        "CreateCategories" : {
+            "url" : "category/create",
+            "method" : "POST",
+            "body": {},
+            "headers" : {},
+            "token" : true
+        },
+        "Categories" : {
+            "url" : "category/getAll",
+            "method" : "POST",
+            "body": {},
+            "headers" : {},
+            "token" : true
+        },
+        "RemoveCategory" : {
+            "url" : "category/removeById",
+            "method" : "POST",
+            "body": {},
+            "headers" : {},
+            "token" : true
+        },
+        "UpdateCategory" : {
+            "url" : "category/updateById",
+            "method" : "POST",
+            "body": {},
+            "headers" : {},
+            "token" : true
+        },        
+        "RemoveTransaction" : {
+            "url" : "transactions/removeById",
+            "method" : "POST",
+            "body": {},
+            "headers" : {},
+            "token" : true
+        },
+        "CreateTransaction" : {
+            "url" : "/transactions/create",
+            "method" : "POST",
+            "body": {},
+            "headers" : {},
+            "token" : true
+        }
+
+
+}
